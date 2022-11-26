@@ -6,7 +6,7 @@ html, body {
   line-height: 1.5;
 }
 
-nav {
+#navbar {
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -25,19 +25,19 @@ header {
   font-weight: thin;
 }
 
-main header {
+#main-doc header {
   text-align: left;
   margin: 0px;
 }
 
-nav ul {
+#navbar ul {
   height: 88%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-nav li {
+#navbar li {
   color: #4d4e53;
   border-top: 1px solid;
   list-style: none;
@@ -45,7 +45,7 @@ nav li {
   width: 100%;
 }
 
-nav a {
+#navbar a {
   display: block;
   padding: 10px 30px;
   color: #4d4e53;
@@ -53,7 +53,7 @@ nav a {
   cursor: pointer;
 }
 
-main {
+#main-doc {
   position: absolute;
   margin-left: 310px;
   padding: 20px;
@@ -125,3 +125,4 @@ code {
     min-width: 233px;
   }
 }
+
